@@ -20,7 +20,16 @@
   </dependencies>
   
   <properties>
-	<java.version>15</java.version>
+	<java.version>8</java.version>
   </properties>
+
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+          </plugin>
+      </plugins>
+  </build>
   
 </project>
