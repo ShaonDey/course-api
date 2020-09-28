@@ -27,4 +27,13 @@ public class TopicService {
 		topicData.add(topic);
 	}
 
+	public void updateTopic(String id, TopicDTO topic) {
+		for (int currentIndex = 0; currentIndex < topicData.size(); currentIndex++) {
+			TopicDTO currentTopic = topicData.get(currentIndex);
+			if (currentTopic.getId().equals(id)) {
+				topicData.set(currentIndex, topic);
+				return;
+			}
+		}
+	}
 }
