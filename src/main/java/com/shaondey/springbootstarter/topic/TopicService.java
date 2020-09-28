@@ -17,5 +17,9 @@ public class TopicService {
 	public List<TopicDTO> getAllTopics(){
 		return topicData;
 	}
+	
+	public TopicDTO getTopic(String id) {
+		return topicData.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+	}
 
 }
