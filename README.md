@@ -24,6 +24,6 @@ Simple News Manager using spring boot
    mvn spring-boot:run
    ```
    
- - The web application is deployed in a tomcat server (port 8080) embedded in sprint boot.
-     -  Go to  `http://localhost:8080/` to see the application.
+ - The web application is deployed in a tomcat server (port 8888) embedded in sprint boot.
+     -  Go to  `http://localhost:8888/` to see the application.
   
